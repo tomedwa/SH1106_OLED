@@ -1,9 +1,12 @@
 # SH1106 OLED Display Driver
 
+![text_example](https://github.com/tomedwa/SH1106_OLED/assets/135190075/78c26a44-24ff-43a2-b5ec-671d4ee41810)
+
 This is a simple driver for the SH1106 OLED screen. Most of the functions are similar to 
 what is found in the various Adafruit libraries for similar components. I have also created 
 some custom xbm fonts that work with this library. I used the Peter Fleury i2cmaster.h library
 to drive the i2c communication between the atmega328p and the SH1106 screen.
+
 
 ## Features
 
@@ -16,6 +19,7 @@ Quick summary of the main features of this library.
 | Invert display    | Options to invert the entire display or just a region of the display. |
 | Draw shapes       | Draw rectangles and circles on the display (filled or unfilled) |
 
+
 ## Getting Started
 Basic example of initialising the screen and drawing a string on the screen.
 ```
@@ -27,8 +31,9 @@ OLED_clear_buffer();  // Ensure the oled buffer is cleared when initialised.
 OLED_draw_string("Hello world", 0, 0, 16, 2, 0);
 
 OLED_display_buffer();  // Send the data in the buffer to the display.
-
 ```
+![hello_word_example](https://github.com/tomedwa/SH1106_OLED/assets/135190075/68809b9b-0ec1-468a-9cd5-e33932d9dc2a)
+
 
 ## Methods
 For descriptions of the methods take a look at the function comments in the SH1106.c file.
