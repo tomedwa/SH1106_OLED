@@ -1,6 +1,6 @@
 # SH1106 OLED Display Driver
 
-![text_example](https://github.com/tomedwa/SH1106_OLED/assets/135190075/78c26a44-24ff-43a2-b5ec-671d4ee41810)
+![text_example](https://github.com/tomedwa/SH1106_OLED/assets/135190075/2edf90f6-6c05-4618-b33d-63af727c4820)
 
 This is a simple driver for the SH1106 OLED screen. Most of the functions are similar to 
 what is found in the various Adafruit libraries for similar components. I have also created 
@@ -32,7 +32,7 @@ OLED_draw_string("Hello world", 0, 0, 16, 2, 0);
 
 OLED_display_buffer();  // Send the data in the buffer to the display.
 ```
-![hello_word_example](https://github.com/tomedwa/SH1106_OLED/assets/135190075/68809b9b-0ec1-468a-9cd5-e33932d9dc2a)
+![hello_word_example](https://github.com/tomedwa/SH1106_OLED/assets/135190075/5e105857-3d99-44c2-98ae-87ad05cdbd66)
 
 
 ## Methods
